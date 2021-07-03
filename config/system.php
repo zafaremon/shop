@@ -23,3 +23,12 @@ function loadFile($fileName){
     global $page, $app;
     include_once $fileName;
 }
+
+function url($path){
+    global $app;
+
+    if($path == '' || $path == '/')
+        return $app['base_url'];
+    
+    return $app['base_url'].'?page='.$path;
+}

@@ -9,12 +9,20 @@ switch($page){
 
     case 'home':
     case '':
-       loadController('home', 'index');
+       loadController('Home', 'index');
         break;
 
     case 'products':
-        loadController('products', 'index');
+        loadController('Products', 'index');
         break;
+    
+        case 'about-us':
+    loadController('AboutUs', 'index'); 
+            break;
+    case 'contact-us':
+        loadController('ContactUs', 'index');
+        break;
+
     default:
         die('Page not found');
         break;
