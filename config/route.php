@@ -23,6 +23,10 @@ switch($page){
         loadController('ContactUs', 'index');
         break;
 
+        case 'test-me':
+            loadController('TestMe', 'index');
+            break;
+
     default:
         die('Page not found');
         break;
