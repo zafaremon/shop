@@ -1,7 +1,7 @@
 <?php
 
 function index(){
-    loadModel('home');
+    loadModel('Product');
     loadView('home');
 }
 
