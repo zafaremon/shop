@@ -16,16 +16,22 @@ switch($page){
         loadController('Products', 'index');
         break;
     
-        case 'about-us':
-    loadController('AboutUs', 'index'); 
+        case 'about-us':    
+        loadController('AboutUs', 'index'); 
             break;
-    case 'contact-us':
+    
+        case 'contact-us':
         loadController('ContactUs', 'index');
         break;
 
         case 'test-me':
             loadController('TestMe', 'index');
             break;
+
+        case 'test-class':
+            loadController('ClassTest', 'index'); 
+        break;
+           
 
     default:
         die('Page not found');

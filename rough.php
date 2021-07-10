@@ -1,7 +1,3 @@
-<?php
-include_once 'layout/header.php';
-?>
-
 <!DOCTYPE html>
 <html>
 <body>
@@ -52,7 +48,3 @@ echo ": " .$nonveg->get_tes();
  
 </body>
 </html>
-
-
-<?php
-include_once 'layout/footer.php';
