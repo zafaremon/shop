@@ -59,6 +59,9 @@
               <li class="nav-item <?= $page == 'test-class' ? 'active' : '' ?>">
                 <a class="nav-link" href="<?= url('test-class') ?>">Test Class</a>
               </li>
+              <li class="nav-item <?= $page == 'cart' ? 'active' : '' ?>">
+                <a class="nav-link" href="<?= url('cart') ?>">Cart</a>
+              </li>
 
 
             </ul>

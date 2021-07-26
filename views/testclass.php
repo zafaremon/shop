@@ -1,5 +1,5 @@
 
-<div class="container">
+
 
 <?php
 
@@ -41,8 +41,17 @@ echo ": " .$rice->get_tes();
 echo "<br>";
 
 echo $nonveg->get_name();  
-echo ": " .$nonveg->get_tes();
+echo ": " .$nonveg->get_tes() .'<br>';
 
 ?>
- 
-</div>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<a href="http://localhost/shop/">Back Home!</a>
+
+
+</body>
+</html>
+

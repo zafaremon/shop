@@ -31,6 +31,10 @@ switch($page){
         case 'test-class':
             loadController('ClassTest', 'index'); 
         break;
+
+        case 'cart':
+            loadController('Cart', 'index'); 
+        break;
            
 
     default:
